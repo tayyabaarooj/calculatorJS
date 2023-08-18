@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CALCULATOR</title>
+</head>
+
+<body>
+  <p>
+    <button onclick="
+  
+  upadateCalculation('1');
+  
+  ">1</button>
+
+    <button onclick="
+ upadateCalculation('2');">2</button>
+
+    <button onclick="
+ upadateCalculation('3');;">3</button>
+  </p>
+  <p>
+    <button onclick="
+ upadateCalculation('4');">4</button>
+
+    <button onclick="
+ upadateCalculation('5');">5</button>
+
+    <button onclick="
+ upadateCalculation('6');">6</button>
+  </p>
+  <p>
+    <button onclick="
+ upadateCalculation('7');">7</button>
+
+    <button onclick="
+ upadateCalculation('8');">8</button>
+    <button onclick="
+ upadateCalculation('9');">9</button>
+  </p>
+
+
+  <button onclick="
+ upadateCalculation('+');">+</button>
+
+  <button onclick="
+eval(calculation);
+calculation= eval(calculation);
+console.log(calculation)">=</button>
+  <script>
+    let calculation = ''; 
+function upadateCalculation(value)
+    {
+calculation+= value;
+console.log(calculation);
+
+
+    }
+  </script>
+</body>
+
+</html
